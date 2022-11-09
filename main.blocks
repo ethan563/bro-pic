@@ -1,0 +1,43 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="|lzh2@s$*dk1cgEw^m}[" x="0" y="0"><statement name="HANDLER"><block type="controls_repeat_ext" id="r*@2w]bpcd?_xY;nBB#M"><value name="TIMES"><shadow type="math_whole_number" id="K9Z2|QOVioyh$gh8Socp"><field name="NUM">4</field></shadow></value><statement name="DO"><block type="device_show_leds" id="s7$IxmiLUrHYq-;$L]^6"><field name="LEDS">`
+        # # # # # 
+        # . . . . 
+        # # # # . 
+        # . . . . 
+        # # # # #
+        `</field><next><block type="device_show_leds" id="_xbeO4Kuj3ORN+G1Kkcv"><field name="LEDS">`
+        # # # # # 
+        . . # . . 
+        . . # . . 
+        . . # . . 
+        . . # . .
+        `</field><next><block type="device_show_leds" id="2iv-4%Sl3xU{_6!.t5i@"><field name="LEDS">`
+        # . . . # 
+        # . . . # 
+        # # # # # 
+        # . . . # 
+        # . . . #
+        `</field><next><block type="device_show_leds" id="DQV/I4B.7=,Ig9-@H]Kr"><field name="LEDS">`
+        . . # . . 
+        . # . # . 
+        . # # # . 
+        # . . . # 
+        # . . . #
+        `</field><next><block type="device_show_leds" id="8gR=`Gj{AK(kp5~htK$e"><field name="LEDS">`
+        # . . . # 
+        # # . . # 
+        # . # . # 
+        # . . # # 
+        # . . . #
+        `</field><next><block type="device_show_leds" id="r:;G]%]VQO?T[j-TSN35"><field name="LEDS">`
+        . # . # . 
+        . # . # . 
+        . . . . . 
+        # # # # # 
+        . # # # .
+        `</field><next><block type="basic_show_icon" id="3aQ~-az2J.LQT_g]MAn`"><field name="i">IconNames.Chessboard</field><next><block type="synth_set_volume" id="QfTzyZCm/M@N[;9ez~}D"><value name="volume"><shadow type="math_number_minmax" id="ETm?Fp*M[-YFryq{R*|("><mutation min="0" max="255" label="Volume" precision="0"></mutation><field name="SLIDER">255</field></shadow></value><next><block type="playMelody" id="Tn]curJ:-tZ}p@UYUG)H"><value name="melody"><shadow type="melody_editor" id=":*+IZ9j3K?vwK{Z{`*lw"><field name="melody">"G F G A - F E D "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="`|/eyks7)KEO#BnB+0rA"><mutation min="40" max="500" label="Tempo" precision="0"></mutation><field name="SLIDER">120</field></shadow></value><next><block type="basic_show_icon" id="H_,8^jSJT@%H7p.AXBU:"><field name="i">IconNames.Butterfly</field><next><block type="playMelody" id="`[87g,{5TPj{R8~nXO^E"><value name="melody"><shadow type="melody_editor" id=")|KMTl:%?3SxA*+j:l0r"><field name="melody">"F C A E G E F C5 "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="=+`EG8M/ur2;=3*f=vmP"><mutation min="40" max="500" label="Tempo" precision="0"></mutation><field name="SLIDER">120</field></shadow></value><next><block type="device_show_number" id="#NJhmF*W!Vn+-vvNU:c8"><value name="number"><shadow type="math_number" id="stKW+HgKaPtVX|cz79]T"><field name="NUM">99999999999999</field></shadow></value><next><block type="playMelody" id="|D1A{DW#N%5#+?`,/qb."><value name="melody"><shadow type="melody_editor" id="=^h_E76P~?+jGryk1rC?"><field name="melody">"B A G A G F A C5 "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="KjY^h|0lVh8DmQUG=t4L"><mutation min="40" max="500" label="Tempo" precision="0"></mutation><field name="SLIDER">120</field></shadow></value><next><block type="device_show_leds" id="S,/*x1ipi}Eg_@gT,|H|"><field name="LEDS">`
+        # . # . . 
+        . # . # . 
+        . # # # . 
+        # . . # . 
+        . . # . #
+        `</field><next><block type="device_start_melody" id="W`TCvL@+[WxUTW4gJ$a4"><field name="options">MelodyOptions.Once</field><value name="melody"><block type="device_builtin_melody" id="RP/v]+SKuuZjG,@;{7Xq"><field name="melody">Melodies.Baddy</field></block></value></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block></statement></block><block type="device_print_message" id="cw5]#dL3/BYT[|wi?SL9" disabled="true" x="429" y="328"><value name="text"><shadow type="text" id="E=4iPJpD+@j@N9%6L9I%" disabled="true"><field name="TEXT"></field></shadow></value></block></xml>
